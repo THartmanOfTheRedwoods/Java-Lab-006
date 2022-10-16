@@ -3,6 +3,7 @@
 ## PART 1
 In this README.md, answer the following question:
 * What happens if you invoke a value method and don't do anything with the returned result; that is, if you don't assign the returned result to a variable or use it as part of a larger expression?
+* *Returned result fizzles out; nothing inherently bad happens, the value just doesn't get stored anywhere or used.*
 
 ## PART 2
 * Fork and clone this lab as you have done in all previous labs, and then complete the following:
