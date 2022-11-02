@@ -2,7 +2,7 @@
 
 ## PART 1
 In this README.md, answer the following question:
-* What happens if you invoke a value method and don't do anything with the returned result; that is, if you don't assign the returned result to a variable or use it as part of a larger expression?
+* What happens if you invoke a value method and don't do anything with the returned result; that is, if you don't assign the returned result to a variable or use it as part of a larger expression? It will run the calculation, but the program will not use it and the user will not see the value.
 
 ## PART 2
 * Fork and clone this lab as you have done in all previous labs, and then complete the following:
