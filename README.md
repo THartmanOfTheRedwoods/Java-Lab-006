@@ -14,6 +14,26 @@ Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](sr
 2. Determine the output of the program and state it below.
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
 
+| i  | n  |
+|----|----|
+| 10 | 10 |
+| 5  | 10 |
+| 6  | 10 |
+| 3  | 10 |
+| 4  | 10 |
+| 2  | 10 |
+| 1  | 10 |
+
+10 \
+5 \
+6 \
+3 \
+4 \
+2 \
+1
+
+
+I do not see any way to prove that this terminates for any positive value.
 ## Part 2: Square Root Approximation
 
 **Objective:**
@@ -46,7 +66,7 @@ Check if a word is a "Pair [Isogram](https://www.dictionary.com/browse/isogram)"
 One way to evaluate $$\exp(-x^2)$$ is to use the infinite series expansion:
 $$\exp(-x^2) = 1 - x^2 + \frac{x^4}{2} - \frac{x^6}{6} + \ldots$$
 
-The ith term in this series is $$(-1)^i \cdot \frac{x^{2i}}{i!}$$. Write a method named gauss that takes x and n as arguments and returns the sum of the first n terms of the series. You should try **NOT** to use factorial or Math.pow.
+The ith term in this series is $$(-1)^i \cdot \frac{x^{2i}}{i!}$$. Create a Java class `src/InfiniteSeries.java` and write a method named gauss that takes x and n as arguments and returns the sum of the first n terms of the series. You should try **NOT** to write/use the factorial or Math.pow methods respectively.
 
 ## Submission
 Follow these steps for submission:
