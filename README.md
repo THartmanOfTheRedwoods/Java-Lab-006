@@ -11,8 +11,28 @@
 Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](src/LoopExecAnalysis.java).
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
+When n=10
+| 10 > 1 |
+|  10 / 2 = 5 |
+|  5 + 1 = 6 |
+|  6 / 2 = 3 |
+|  3 + 1 = 4 |
+|  4 / 2 = 2 |
+| 2 > 1 |
+| Cant go beyond this point due to i > 1, anymore and this statement would not be true.|
+
+
 2. Determine the output of the program and state it below.
+   | 10 |
+   |  5 |
+   |  6 |
+   |  3 |
+   |  4 |
+   |  2 |
+
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+
+- If n=1, the program won't run due to while(i>n), this would be while(i>1) which is not true.
 
 ## Part 2: Square Root Approximation
 
