@@ -11,7 +11,9 @@
 Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](src/LoopExecAnalysis.java).
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
+![img.png](img.png)
 2. Determine the output of the program and state it below.
+![img_1.png](img_1.png)
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
 
 ## Part 2: Square Root Approximation
