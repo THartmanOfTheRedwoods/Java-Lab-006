@@ -11,8 +11,15 @@
 Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](src/LoopExecAnalysis.java).
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
-2. Determine the output of the program and state it below.
-3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+2. Determine the output of the program and state it below. <br>
+10 <br>
+5 <br>
+6 <br>
+3 <br>
+4 <br>
+2
+3. Discuss if you can prove that this loop terminates for any positive value of n below this question. <br>
+It will always terminate at any positive value of n. when the value is odd, it adds 1 to the value which always makes it even. when the value is even it divides the value by 2. Since dividing it by 2 will always reduce the number by a value >= 1. It will always grow smaller than it grows larger thus inevitably reaching 1, which will terminate the program.
 
 ## Part 2: Square Root Approximation
 
