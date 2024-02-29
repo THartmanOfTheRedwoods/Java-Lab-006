@@ -14,6 +14,16 @@ Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](sr
 2. Determine the output of the program and state it below.
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
 
+The output is:
+```bash
+10
+5
+6
+3
+4
+2
+```
+This loop will terminate for any positive value of n because no matter what number it is, it will be divided by 2 until it eventually becomes equal to one therefore terminating the loop. For odd numbers the else statement adds 1 to them making them even which means they will also be divided by 2 the next time the code repeats.
 ## Part 2: Square Root Approximation
 
 **Objective:**
