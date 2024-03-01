@@ -11,9 +11,17 @@
 Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](src/LoopExecAnalysis.java).
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
+ 
 2. Determine the output of the program and state it below.
+ - The out put is:
+    - 10
+    - 5
+    - 6
+    - 3
+    - 4
+    - 2
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
-
+ - When i is even it will be divided by 2 until it reaches 1 and when i is odd it is incremented by 1 then follows the same path as the even numbers. The value for i will eventually reach 1 or less which terminates the loop, so the loop terminates for any positive value of n.
 ## Part 2: Square Root Approximation
 
 **Objective:**
