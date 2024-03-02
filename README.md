@@ -12,7 +12,20 @@ Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](sr
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
 2. Determine the output of the program and state it below.
-3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+3. Discuss if you can prove that this loop terminates for any positive value of n below this question. 
+
+Output:
+- 10
+- 5
+- 6
+- 3
+- 4
+- 2
+
+The loop terminates when the value of variable i becomes 1 or less. We can see that the value of i is either halved (if it's even) or incremented by 1 (if it's odd) during each iteration. This process will lead to i becoming 1 or less, causing the loop to terminate.
+Since the loop's condition is i > 1 and the loop updates i according to specific rules that guarantee it either decreases or remains the same. It can be proven that the loop will always terminate for any positive value of n.
+
+
 
 ## Part 2: Square Root Approximation
 
