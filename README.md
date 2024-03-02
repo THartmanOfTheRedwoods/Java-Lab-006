@@ -30,6 +30,7 @@ Since the loop's condition is i > 1 and the loop updates i according to specific
 ## Part 2: Square Root Approximation
 
 **Objective:**
+
 Write a method to approximate the square root of a given number.
 
 1. Create a Java file named `src/MySqRoot.java` and implement a method named `squareRoot` (don't use the `Math.sqrt` method) that takes a double parameter "num" and returns an approximation of its square root.

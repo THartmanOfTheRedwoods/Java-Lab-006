@@ -41,4 +41,5 @@ public class WordChecks {
         System.out.println(inputWord + " is isogram? " + isPairIsogram(inputWord));
     }
 
+
 }

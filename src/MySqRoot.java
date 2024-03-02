@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class MySqRoot {
     public static double squareRoot(double num) {
         double x0 = num / 2.0;
