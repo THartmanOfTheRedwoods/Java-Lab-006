@@ -17,17 +17,18 @@ public class WordChecks {
 
     public static boolean isPairIsogram(String word2) {
 
-        System.out.println("The word " + word2 + " is a Pair Isogram.");
+        System.out.println("The word " + word2 + " is an Isogram word.");
 
-        int[] counts = new int[26];
+        int[] letterCount = new int[26];
         String lower = word2.toLowerCase();
-        for (char letter : lower.toCharArray()) {
-            int index = letter - 'a';
-            counts[index]++;
+        for(int i = 0; i < word2.length(); i++) {
+            char letter = word2.charAt(i);
+            if(letter >= 'a' && letter <= 'z'){
+                letterCount[letter - 'a']++;
+            }
         }
-        for (int count : counts) {
-
-            if (count != 0 && count != 2){
+        for(int count : letterCount) {
+            if (count % 2 != 0){
                 return false;
             }
         }
