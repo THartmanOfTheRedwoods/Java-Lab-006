@@ -14,6 +14,16 @@ Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](sr
 2. Determine the output of the program and state it below.
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
 
+| Loop | Value of n | Value of i |
+|------|------------|------------|
+| 1    | 10         | 10         |
+| 2    | 10         | 5          |
+| 3    | 10         | 6          |
+| 4    | 10         | 3          |
+| 5    | 10         | 4          |
+| 6    | 10         | 2          |
+If n is 1, the loop condition i>1 is false and never initiates.  So, yes, it can be proven
+
 ## Part 2: Square Root Approximation
 
 **Objective:**
