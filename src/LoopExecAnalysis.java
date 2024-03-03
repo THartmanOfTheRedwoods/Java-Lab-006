@@ -1,3 +1,8 @@
+/**
+ * @author Trevor Hartman
+ * @date 3-2-24
+ * @version 1.0
+ */
 public class LoopExecAnalysis {
     public static void loop(int n) {
         int i = n;
