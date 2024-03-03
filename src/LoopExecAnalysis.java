@@ -15,3 +15,11 @@ public class LoopExecAnalysis {
         loop(10);
     }
 }
+//Iteration	Value of i	Value of n
+//       1	         10         10
+//       2	         5	        10
+//       3	 	     6          10
+//       4	 	     3          10
+//       5	 	     4          10
+//       6	 	     2          10
+//       7	 	     1          10
