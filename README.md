@@ -11,8 +11,21 @@
 Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](src/LoopExecAnalysis.java).
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
+
+| Iteration | I  | N  |
+|:---------:|:--:|:---|
+|     1     | 10 | 10 |
+|     2     | 5  | 10 |
+|     3     | 6  | 10 |
+|     4     | 3  | 10 |
+|     5     | 4  | 10 |
+|     6     | 2  | 10 |
+|     7     | 1  | 10 |
+
 2. Determine the output of the program and state it below.
+* The output of the program would be 10, 5, 6, 3, 4, 2
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+* The termination of the loop is not guaranteed for any positive value of n. A guaranteed loop termination is only when i becomes 1. In this certain example the loop can become an infinite loop because if i is odd and it keeps being incremented by 1 it could just keep the loop repeating infinitely. 
 
 ## Part 2: Square Root Approximation
 
