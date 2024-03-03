@@ -12,6 +12,7 @@ public class LoopExecAnalysis {
     }
 
     public static void main(String[] args) {
+
         loop(10);
     }
 }

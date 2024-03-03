@@ -11,8 +11,36 @@
 Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](src/LoopExecAnalysis.java).
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
+
+| n  | i  |
+|----|----|
+| 10 | 10 |
+| 10 | 5  |
+| 10 | 6  |
+| 10 | 3  |
+| 10 | 4  |
+| 10 | 2  |
+| 10 | 1  |
+
 2. Determine the output of the program and state it below.
+
+   10
+
+   5
+
+   6
+
+   3
+
+   4
+
+   2
+
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+
+   If n is some power of 2, it is clear the loop will eventually terminate. If n is not a power of
+   2, the loop appears to oscillate between even and odd values until eventually landing on 2 then 1.
+   However, the proof of this is a complicated number theory problem, and out of the scope of this course.
 
 ## Part 2: Square Root Approximation
 
