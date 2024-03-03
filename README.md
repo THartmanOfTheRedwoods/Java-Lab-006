@@ -10,7 +10,24 @@
 **Objective:**
 Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](src/LoopExecAnalysis.java).
 
-1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
+Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
+* Output of the program :
+- ![img.png](img.png)
+* Table:
+- |Iteration| i | n |
+- | 1 | 10 | 10 |
+- | 2 | 9 | 10 |
+- | 3 | 8 | 10 |
+- | 4 | 7 | 10 |
+- | 5 | 6 | 10 |
+- | 6 | 5 | 10 | 
+- | 7 | 4 | 10 | 
+- | 8 | 3 | 10 | 
+- | 9 | 2 | 10 | 
+- | 10 | 1 | 10 |
+
+
+
 2. Determine the output of the program and state it below.
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
 
