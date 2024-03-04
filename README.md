@@ -11,9 +11,25 @@
 Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](src/LoopExecAnalysis.java).
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
-2. Determine the output of the program and state it below.
-3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+   
+   >| Iteration | Value of _i_ | Value of _n_ |
+   >|-----------|--------------|--------------|
+   >| 1         | 10           | 10           |
+   >| 2         | 5            | 10           |
+   >| 3         | 6            | 10           |
+   >| 4         | 3            | 10           |
+   >| 5         | 4            | 10           |
+   >| 6         | 2            | 10           |
 
+2. Determine the output of the program and state it below.
+   >10 \
+   >5 \
+   >6   
+   >3 \
+   >4 \
+   >2
+3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+   >Yes, this loop will terminate for any positive integer of n. The if else statements are such that any positive integer will become divisible by 2 which will eventually result in 2 / 2 = 1. 1 !> 1 therefore the loop will terminate. The only exception is if the original value of n is 1, in which case the loop will never execute to begin with. 
 ## Part 2: Square Root Approximation
 
 **Objective:**
