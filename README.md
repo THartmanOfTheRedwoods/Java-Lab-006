@@ -12,7 +12,9 @@ Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](sr
 
 1. Create a table showing the values of variables i and n during the execution of the loop and add it as markdown below this question, or as an image in this project.
 2. Determine the output of the program and state it below.
+The output is 10, 5, 6, 3, 4, 2.
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+The loop will terminate for any positive value of n because the loop terminates when i is 1. With all positive integers, i will eventually become 1 which terminates the loop.
 
 ## Part 2: Square Root Approximation
 
