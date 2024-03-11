@@ -14,6 +14,33 @@ Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](sr
 2. Determine the output of the program and state it below.
 3. Discuss if you can prove that this loop terminates for any positive value of n below this question.
 
+|   | n  | i  |
+   |:--|----|----|
+   | 1 | 10 | 10 |
+   | 2 | 10 | 5  |
+   | 3 | 10 | 6  |
+   | 4 | 10 | 3  |
+   | 5 | 10 | 4  |
+    | 6 | 10 | 2  |
+
+ output:
+```
+10
+5
+6
+3
+4
+2
+```
+```
+The loop terminates for any positive value of n. If the answer is odd the
+it will be made even and then divided by one effectively making it smaller
+it would get divided subsequently making it smaller and once it hit 1, the
+loop would terminate. The inequality (i + 1) < 2i shows this because it can
+be simplified into 1 < i so aslong as "i" is greater than 1 it will become
+smaller every 2 iterations.
+```
+
 ## Part 2: Square Root Approximation
 
 **Objective:**
