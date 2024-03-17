@@ -1,11 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="GENERAL_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+public class MySqRoot {
+    public static double squareRoot(double num) {
+        // Initial guess for square root
+        double guess = num / 2.0;
+
+        // Iterate until two consecutive estimates differ by less than 0.0001
+        while (true) {
+            double newGuess = (guess + num / guess) / 2.0;
+            if (Math.abs(newGuess - guess) < 0.0001) {
+                return newGuess;
+            }
+            guess = newGuess;
+        }
+    }
+
+    public static void main(String[] args) {
+        double number = 25.0;
+        System.out.println("Square root of " + number + " is approximately: " + squareRoot(number));
+    }
+}
+
+
+public class WordChecks {
+    public static boolean isAbecedarian(String word) {
+        for (int i = 0; i < word.length() - 1; i++) {
+            if (word.charAt(i) > word.charAt(i + 1)) {
+                return false; // If any pair of adjacent characters is out of order, return false
+            }
+        }
+        return true; // All characters are in alphabetical order
+    }
+
+    public static void main(String[] args) {
+        String testWord = "abcdef";
+        System.out.println(testWord + " is abecedarian: " + isAbecedarian(testWord));
+    }
+}
+public class WordChecks {
+    public static boolean isPairIsogram(String word) {
+        word = word.toLowerCase(); // Ignore case
+        int[] count = new int[26]; // Assuming only lowercase letters are considered
+
+        for (char c : word.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                count[c - 'a']++;
+            }
+        }
+
+        for (int i : count) {
+            if (i != 0 && i != 2) {
+                return false; // If any letter occurs more or less than twice, return false
+            }
+        }
+        return true; // All letters occur exactly twice
+    }
+
+    public static void main(String[] args) {
+        String testWord = "abbcde";
+        System.out.println(testWord + " is a pair isogram: " + isPairIsogram(testWord));
+    }
+}
